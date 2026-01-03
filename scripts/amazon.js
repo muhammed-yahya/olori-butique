@@ -76,7 +76,7 @@ const searchBar = document.getElementById('search-bar');
 const searchButton = document.getElementById('search-button');
 
 if (searchButton && searchBar) {
-  searchButton.addEventListener('click', function() {
+  searchBar.addEventListener('input', function() {
     const query = searchBar.value.toLowerCase();
     const filteredProducts = products.filter(product =>
       product.name.toLowerCase().includes(query)
@@ -98,6 +98,7 @@ cart.push({
   productName: productName,
   quantity: 1
 });
+
 console.log(cart);
 });    
 });
