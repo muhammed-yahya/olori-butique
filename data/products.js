@@ -1,8 +1,8 @@
 const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/athletic-cotton-socks-6-pairs.jpg",
-    name: "Green Short Design sneeker",
+    image: "images/products/Green-long-Design-gown.jpg",
+    name: "Green Long Design Gown",
     rating: {
       stars: 4.5,
       count: 87
@@ -15,23 +15,24 @@ const products = [
     ]
   },
   {
-    id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/intermediate-composite-basketball.jpg",
-    name: "Intermediate Size Basketball",
+    id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
+    image: "images/products/short-design-gown.jpg",
+    name: "Short Design Gown",
     rating: {
       stars: 4,
-      count: 127
+      count: 37
     },
-    priceCents: 2095,
+    priceCents: 2067,
     keywords: [
-      "sports",
-      "basketballs"
+      "plates",
+      "kitchen",
+      "dining"
     ]
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
     image: "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
-    name: "Adults Plain Cotton T-Shirt - 2 Pack",
+    name: "Adults Long Design Spergety",
     rating: {
       stars: 4.5,
       count: 56
@@ -47,8 +48,8 @@ const products = [
   },
   {
     id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/black-2-slot-toaster.jpg",
-    name: "2 Slot Toaster - Black",
+    image: "images/products/brown-long-skirt.jpg",
+    name: "Brown Long Skirt",
     rating: {
       stars: 5,
       count: 2197
@@ -60,25 +61,12 @@ const products = [
       "appliances"
     ]
   },
-  {
-    id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/6-piece-white-dinner-plate-set.jpg",
-    name: "6 Piece White Dinner Plate Set",
-    rating: {
-      stars: 4,
-      count: 37
-    },
-    priceCents: 2067,
-    keywords: [
-      "plates",
-      "kitchen",
-      "dining"
-    ]
-  },
+
+  
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/6-piece-non-stick-baking-set.webp",
-    name: "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    image: "images/products/pink-short-skirt.webp",
+    name: "Pink Short Skirt",
     rating: {
       stars: 4.5,
       count: 175
@@ -87,6 +75,65 @@ const products = [
     keywords: [
       "kitchen",
       "cookware"
+    ]
+  },
+    {
+    id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
+    image: "images/products/design-long-gown.webp",
+    name: "Design Long Gown ",
+    rating: {
+      stars: 4.5,
+      count: 232
+    },
+    priceCents: 4599,
+    keywords: [
+      "bedroom",
+      "curtains",
+      "home"
+    ]
+  },
+    {
+    id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
+    image: "images/products/Design-staight-skirt.jpg",
+    name: "Design staight skirt",
+    rating: {
+      stars: 4.5,
+      count: 119
+    },
+    priceCents: 1250,
+    keywords: [
+      "bathmat",
+      "bathroom",
+      "home"
+    ]
+  },
+    {
+    id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
+    image: "images/products/Blue-long-jogers.jpg",
+    name: "Blue long jogers",
+    rating: {
+      stars: 4.5,
+      count: 1211
+    },
+    priceCents: 2250,
+    keywords: [
+      "coffeemakers",
+      "kitchen",
+      "appliances"
+    ]
+  },
+    {
+    id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
+    image: "images/products/White&Black-Design-Short-Gown.jpg",
+    name: "White&Black Design Short Gown",
+    rating: {
+      stars: 4.5,
+      count: 363
+    },
+    priceCents: 3099,
+    keywords: [
+      "bedroom",
+      "home"
     ]
   },
   {
@@ -200,21 +247,7 @@ const products = [
       "summer"
     ]
   },
-  {
-    id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/products/blackout-curtain-set-beige.webp",
-    name: "Blackout Curtains Set 4-Pack - Beige",
-    rating: {
-      stars: 4.5,
-      count: 232
-    },
-    priceCents: 4599,
-    keywords: [
-      "bedroom",
-      "curtains",
-      "home"
-    ]
-  },
+
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
     image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
@@ -312,21 +345,7 @@ const products = [
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png"
   },
-  {
-    id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/bathroom-rug.jpg",
-    name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
-    rating: {
-      stars: 4.5,
-      count: 119
-    },
-    priceCents: 1250,
-    keywords: [
-      "bathmat",
-      "bathroom",
-      "home"
-    ]
-  },
+
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
     image: "images/products/women-knit-ballet-flat-black.jpg",
@@ -533,35 +552,6 @@ const products = [
       "boxes",
       "food containers",
       "kitchen"
-    ]
-  },
-  {
-    id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
-    name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
-    rating: {
-      stars: 4.5,
-      count: 1211
-    },
-    priceCents: 2250,
-    keywords: [
-      "coffeemakers",
-      "kitchen",
-      "appliances"
-    ]
-  },
-  {
-    id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
-    image: "images/products/blackout-curtains-black.jpg",
-    name: "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
-    rating: {
-      stars: 4.5,
-      count: 363
-    },
-    priceCents: 3099,
-    keywords: [
-      "bedroom",
-      "home"
     ]
   },
   {
