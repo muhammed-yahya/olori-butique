@@ -21,9 +21,6 @@ products.forEach((product) => {
             </div>
           </div>
 
-          <div class="product-price">
-            ${(product.priceCents )}
-          </div>
 
 
           <div class="product-spacer"></div>
@@ -57,7 +54,7 @@ function renderProducts(productList) {
           <img class="product-rating-stars" src="images/ratings/rating-${product.rating.stars * 10}.png">
           <div class="product-rating-count link-primary">${product.rating.count}</div>
         </div>
-        <div class="product-price">${(product.priceCents )}</div>
+
         <div class="product-spacer"></div>
         <div class="added-to-cart">
           <img src="images/icons/checkmark.png">Added
