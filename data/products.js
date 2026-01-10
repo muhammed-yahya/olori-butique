@@ -2,7 +2,7 @@ const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/Green-long-Design-gown.jpg",
-    name: "Green Long Design Gown : ₦12,000",
+    name: "Green Long Design Gown : ₦5,000",
     rating: {
       stars: 4.5,
       count: 87
@@ -101,7 +101,7 @@ const products = [
     {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
     image: "images/products/Blue-long-jogers.jpg",
-    name: "Blue long jogers : ₦5,000",
+    name: "Blue long jogers : ₦12,000",
     rating: {
       stars: 4.5,
       count: 1211
